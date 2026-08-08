@@ -80,7 +80,7 @@ input:focus+.ic{color:var(--accent)}
       </div>
       <button class="btn" type="submit" id="btn"><i class="ti ti-login-2"></i> ورود به داشبورد</button>
     </form>
-    <div class="footer">پشتیبانی <a href="https://t.me/EliteNet" target="_blank"><i class="ti ti-brand-telegram"></i>@EliteNetSellerBotSellerBot</a></div>
+    <div class="footer">پشتیبانی <a href="https://t.me/EliteNetSellerBotSellerBot" target="_blank"><i class="ti ti-brand-telegram"></i>@EliteNetSellerBotSellerBot</a></div>
   </div>
 </div>
 <script>
@@ -839,7 +839,7 @@ a{color:inherit;text-decoration:none}
   </div>
   <div class="dash-footer">
     <span class="df-text">Elite v1.0 · Railway</span>
-    <a class="df-link" href="https://t.me/EliteNetSupp" target="_blank"><i class="ti ti-brand-telegram"></i> t.me/EliteNetSupp</a>
+    <a class="df-link" href="https://t.me/EliteNetSellerBotSellerBot" target="_blank"><i class="ti ti-brand-telegram"></i> t.me/EliteNetSupp</a>
     
   </div>
 </section>
