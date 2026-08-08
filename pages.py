@@ -1,4 +1,7 @@
+# pages.py  -  X4G v1.0
+# شامل: LOGIN_HTML, DASHBOARD_HTML, get_public_page_html()
 
+# لوگوی X4G (به‌صورت base64 داخلی، بدون نیاز به هاست خارجی)
 LOGO_B64 = "https://ibb.co/kgZysYhY"
 
 LOGIN_HTML = r"""<!DOCTYPE html>
