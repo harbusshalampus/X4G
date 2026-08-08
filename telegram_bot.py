@@ -35,8 +35,8 @@ from main import (
     parse_speed_to_bytes,
 )
 
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
-_admin_ids_raw = os.environ.get("TELEGRAM_ADMIN_IDS", "").strip()
+BOT_TOKEN = os.environ.get("8921941272:AAGxPN9cbIZnyDWPGELWJFlMFMRzRj5NCZM", "").strip()
+_admin_ids_raw = os.environ.get("6924784244", "").strip()
 ADMIN_IDS = {int(x) for x in _admin_ids_raw.replace(" ", "").split(",") if x.isdigit()} if _admin_ids_raw else set()
 
 API_BASE = f"https://api.telegram.org/bot{BOT_TOKEN}"
@@ -305,7 +305,7 @@ async def _handle_message(msg: dict):
 
     if text in ("/start", "/menu"):
         _pending.pop(chat_id, None)
-        await _send(chat_id, "👋 به ربات مدیریت X4G خوش اومدی.\nاز دکمه‌های زیر برای مدیریت کانفیگ‌ها استفاده کن:", _main_menu_kb())
+        await _send(chat_id, "👋 به ربات مدیریت EliteNet خوش اومدی.\nاز دکمه‌های زیر برای مدیریت کانفیگ‌ها استفاده کن:", _main_menu_kb())
         return
 
     if text == "/cancel":
@@ -406,7 +406,7 @@ async def _handle_callback(cb: dict):
 
     if data == "menu":
         _pending.pop(chat_id, None)
-        await _edit(chat_id, message_id, "منوی مدیریت X4G:", _main_menu_kb())
+        await _edit(chat_id, message_id, "منوی مدیریت EliteNet:", _main_menu_kb())
         return
 
     if data.startswith("list:"):
