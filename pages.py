@@ -66,10 +66,10 @@ input:focus+.ic{color:var(--accent)}
     <h1>ورود به پنل</h1>
     <p class="sub">رمز عبور را برای دسترسی به داشبورد وارد کنید</p>
     <div class="err" id="err"><i class="ti ti-alert-circle"></i><span id="err-text"></span></div>
-    <div class="hint">
-      <span class="hint-label">رمز پیش‌فرض سیستم</span>
-      <span class="hint-val" onclick="document.getElementById('pw').value='X4GKING';document.getElementById('pw').focus()">X4GKING</span>
-    </div>
+    # <div class="hint">
+    #   <span class="hint-label">رمز پیش‌فرض سیستم</span>
+    #   <span class="hint-val" onclick="document.getElementById('pw').value='X4GKING';document.getElementById('pw').focus()">X4GKING</span>
+    # </div>
     <form id="form">
       <div class="field">
         <label>رمز عبور</label>
@@ -80,7 +80,7 @@ input:focus+.ic{color:var(--accent)}
       </div>
       <button class="btn" type="submit" id="btn"><i class="ti ti-login-2"></i> ورود به داشبورد</button>
     </form>
-    <div class="footer">پشتیبانی <a href="https://t.me/EliteNet" target="_blank"><i class="ti ti-brand-telegram"></i>@EliteNet</a></div>
+    <div class="footer">پشتیبانی <a href="https://t.me/EliteNet" target="_blank"><i class="ti ti-brand-telegram"></i>@EliteNetSellerBotSellerBot</a></div>
   </div>
 </div>
 <script>
@@ -106,7 +106,7 @@ DASHBOARD_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>EliteNet</title>
+<title>EliteNet Sub</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -1223,9 +1223,9 @@ a{color:inherit;text-decoration:none}
         <div class="srv-hero-sub"><span class="dot dg pulse"></span> راه‌های ارتباطی با تیم EliteNet</div>
       </div>
     </div>
-      <a class="srv-tile" href="https://t.me/@EliteNetSellerBot" target="_blank" style="text-decoration:none;cursor:pointer">
+      <a class="srv-tile" href="https://t.me/@EliteNetSellerBotSellerBot" target="_blank" style="text-decoration:none;cursor:pointer">
         <div class="srv-tile-icon"><i class="ti ti-speakerphone"></i></div>
-        <div class="srv-tile-text"><div class="srv-tile-label">کانال تلگرام</div><div class="srv-tile-val">t.me/@EliteNetSellerBot</div></div>
+        <div class="srv-tile-text"><div class="srv-tile-label">کانال تلگرام</div><div class="srv-tile-val">t.me/@EliteNetSellerBotSellerBot</div></div>
       </a>
     </div>
   </div>
@@ -2112,7 +2112,7 @@ html,body{{min-height:100%;background:var(--bg);font-family:var(--serif);color:v
   <div id="root">
     <div class="empty-state"><i class="ti ti-loader-2" style="animation:spin 1s linear infinite"></i>در حال بارگذاری...</div>
   </div>
-  <div class="footer">پشتیبانی: <a href="https://t.me/@EliteNetSellerBot" target="_blank">@EliteNetSellerBot</a> · EliteNet v1.0</div>
+  <div class="footer">پشتیبانی: <a href="https://t.me/@EliteNetSellerBotSellerBot" target="_blank">@EliteNetSellerBotSellerBot</a> · EliteNet v1.0</div>
 </div>
 <script>
 const UUID_KEY='{uuid_key}';
