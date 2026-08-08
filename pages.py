@@ -8,7 +8,7 @@ LOGIN_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ورود · X4G</title>
+<title>ورود · EliteNet</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -60,8 +60,8 @@ input:focus+.ic{color:var(--accent)}
 <div class="wrap">
   <div class="card">
     <div class="brand">
-      <div class="brand-img"><img src="data:image/png;base64,__LOGO_B64__" alt="X4G"></div>
-      <div><div class="brand-name">X4G</div><div class="brand-sub">v9.8</div></div>
+      <div class="brand-img"><img src="data:image/png;base64,__LOGO_B64__" alt="EliteNet"></div>
+      <div><div class="brand-name">EliteNet</div><div class="brand-sub">v9.8</div></div>
     </div>
     <h1>ورود به پنل</h1>
     <p class="sub">رمز عبور را برای دسترسی به داشبورد وارد کنید</p>
@@ -80,7 +80,7 @@ input:focus+.ic{color:var(--accent)}
       </div>
       <button class="btn" type="submit" id="btn"><i class="ti ti-login-2"></i> ورود به داشبورد</button>
     </form>
-    <div class="footer">پشتیبانی <a href="https://t.me/X4GHUB" target="_blank"><i class="ti ti-brand-telegram"></i>@X4GHUB</a></div>
+    <div class="footer">پشتیبانی <a href="https://t.me/EliteNet" target="_blank"><i class="ti ti-brand-telegram"></i>@EliteNet</a></div>
   </div>
 </div>
 <script>
@@ -106,7 +106,7 @@ DASHBOARD_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>X4G</title>
+<title>EliteNet</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -763,8 +763,8 @@ a{color:inherit;text-decoration:none}
 </div>
 <div class="mob-top">
   <div class="ml">
-    <div class="mob-logo"><img src="data:image/png;base64,__LOGO_B64__" alt="X4G"></div>
-    <span class="mob-title">X4G</span>
+    <div class="mob-logo"><img src="data:image/png;base64,__LOGO_B64__" alt="EliteNet"></div>
+    <span class="mob-title">EliteNet</span>
   </div>
   <div class="mob-right">
     <button class="theme-mob" id="theme-mob-btn" onclick="toggleTheme()"><i class="ti ti-sun" id="theme-mob-icon"></i></button>
@@ -775,8 +775,8 @@ a{color:inherit;text-decoration:none}
 <aside class="sidebar" id="sb">
   <button class="sb-close" id="close-sb"><i class="ti ti-x"></i></button>
   <div class="logo">
-    <div class="logo-img"><img src="data:image/png;base64,__LOGO_B64__" alt="X4G"></div>
-    <div><div class="logo-name">X4G</div><div class="logo-sub">v9.8</div></div>
+    <div class="logo-img"><img src="data:image/png;base64,__LOGO_B64__" alt="EliteNet"></div>
+    <div><div class="logo-name">EliteNet</div><div class="logo-sub">v9.8</div></div>
   </div>
   <div class="nav-wrap">
     <div class="nav-sec">پنل</div>
@@ -838,8 +838,8 @@ a{color:inherit;text-decoration:none}
     </div>
   </div>
   <div class="dash-footer">
-    <span class="df-text">X4G v9.8 · Railway</span>
-    <a class="df-link" href="https://t.me/X4GHUB" target="_blank"><i class="ti ti-brand-telegram"></i> t.me/X4GHUB</a>
+    <span class="df-text">Elite v1.0 · Railway</span>
+    <a class="df-link" href="https://t.me/EliteNetSupp" target="_blank"><i class="ti ti-brand-telegram"></i> t.me/EliteNetSupp</a>
     
   </div>
 </section>
@@ -1219,8 +1219,8 @@ a{color:inherit;text-decoration:none}
     <div class="srv-hero">
       <div class="srv-hero-icon"><i class="ti ti-headset"></i></div>
       <div class="srv-hero-text">
-        <div class="srv-hero-domain">پشتیبانی X4G</div>
-        <div class="srv-hero-sub"><span class="dot dg pulse"></span> راه‌های ارتباطی با تیم X4G</div>
+        <div class="srv-hero-domain">پشتیبانی EliteNet</div>
+        <div class="srv-hero-sub"><span class="dot dg pulse"></span> راه‌های ارتباطی با تیم EliteNet</div>
       </div>
     </div>
     <div class="srv-tiles">
@@ -1926,7 +1926,7 @@ def get_public_page_html(uuid_key: str) -> str:
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>X4G Sub</title>
+<title>Elite Sub</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -2114,8 +2114,8 @@ html,body{{min-height:100%;background:var(--bg);font-family:var(--serif);color:v
 <div class="wrap">
   <div class="top">
     <div class="brand">
-      <div class="brand-img"><img src="data:image/png;base64,{LOGO_B64}" alt="X4G"></div>
-      <div><div class="brand-name">X4G</div><div class="brand-sub">v9.8</div></div>
+      <div class="brand-img"><img src="data:image/png;base64,{LOGO_B64}" alt="EliteNet"></div>
+      <div><div class="brand-name">EliteNet</div><div class="brand-sub">v9.8</div></div>
     </div>
     <div class="top-actions">
       <button class="icon-btn" id="theme-toggle" onclick="toggleTheme()" title="تغییر تم"><i class="ti ti-sun" id="theme-icon"></i></button>
@@ -2125,7 +2125,7 @@ html,body{{min-height:100%;background:var(--bg);font-family:var(--serif);color:v
   <div id="root">
     <div class="empty-state"><i class="ti ti-loader-2" style="animation:spin 1s linear infinite"></i>در حال بارگذاری...</div>
   </div>
-  <div class="footer">پشتیبانی: <a href="https://t.me/X4GHUB" target="_blank">@X4GHUB</a> · X4G v9.8</div>
+  <div class="footer">پشتیبانی: <a href="https://t.me/@EliteNetSellerBot" target="_blank">@EliteNetSellerBot</a> · X4G v9.8</div>
 </div>
 <script>
 const UUID_KEY='{uuid_key}';
