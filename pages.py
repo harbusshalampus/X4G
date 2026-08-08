@@ -65,13 +65,13 @@ input:focus+.ic{color:var(--accent)}
     </div>
     <h1>ورود به پنل</h1>
     <p class="sub">رمز عبور را برای دسترسی به داشبورد وارد کنید</p>
-    <div class="err" id="err"><i class="ti ti-alert-circle"></i><span id="err-text"></span></div>
-    # <div class="hint">
-    #   <span class="hint-label">رمز پیش‌فرض سیستم</span>
-    #   <span class="hint-val" onclick="document.getElementById('pw').value='X4GKING';document.getElementById('pw').focus()">X4GKING</span>
-    # </div>
-    <form id="form">
-      <div class="field">
+    # <div class="err" id="err"><i class="ti ti-alert-circle"></i><span id="err-text"></span></div>
+    # # <div class="hint">
+    # #   <span class="hint-label">رمز پیش‌فرض سیستم</span>
+    # #   <span class="hint-val" onclick="document.getElementById('pw').value='X4GKING';document.getElementById('pw').focus()">X4GKING</span>
+    # # </div>
+    # <form id="form">
+    #   <div class="field">
         <label>رمز عبور</label>
         <div class="inp-wrap">
           <input type="password" id="pw" placeholder="رمز عبور را وارد کنید" autofocus required>
